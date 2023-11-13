@@ -1,19 +1,23 @@
-## Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee
+# Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee
+
 ## AIM:
 To write a program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
 
 ## Equipments Required:
-Hardware – PCs
-Anaconda – Python 3.7 Installation / Jupyter notebook
+1. Hardware – PCs
+2. Anaconda – Python 3.7 Installation / Jupyter notebook
+
 ## Algorithm
-import dataset and get data info
-check for null values
-Map values for position column
-Split the dataset into train and test set
-Import decision tree regressor and fit it for data
-Calculate MSE,R2 and y predict.
+1. import dataset and get data info
+2. check for null values
+3. Map values for position column
+4. Split the dataset into train and test set
+5. Import decision tree regressor and fit it for data 
+6. Calculate MSE,R2 and y predict.
+
 ## Program:
 ```
+
 Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
 Developed by: Yuvabharathi.B
 RegisterNumber:  212222230181
@@ -54,28 +58,42 @@ r2
 
 dt.predict([[5,6]])
 ```
+
 ## Output:
-### data.head()
-![image](https://github.com/yuvabharathib/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/113497404/f3bf1859-e235-4ed7-9aad-f8848f3b7c52)
 
-### data.info()
-![image](https://github.com/yuvabharathib/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/113497404/0c02414d-a715-46d8-9c6b-fc69fa1fc152)
+data.head()
 
-### isnull() and sum()
-![image](https://github.com/yuvabharathib/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/113497404/f43475c3-d7a8-41d4-8475-b0b0f6cadbcc)
-
-### data.head() for salary
-![image](https://github.com/yuvabharathib/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/113497404/9383022d-84c0-41b5-80a2-a909ccbc40f2)
-
-### MSE Value
-![image](https://github.com/yuvabharathib/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/113497404/50b5d1d9-822d-4ab6-a192-6c6a21ca0794)
-
-### r2 value
-![image](https://github.com/yuvabharathib/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/113497404/72be5a49-990d-492c-8800-c2d292086725)
-
-### data prediction
-![image](https://github.com/yuvabharathib/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/113497404/dac99ee8-27c4-4e7a-af7a-c4f2f5204fa9)
+![41](https://github.com/hariprasath5106/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/111515488/919484c4-ae07-4355-aa0f-24a5682ac59c)
 
 
-## Result: 
-Thus the program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee is written and verified using python programming
+data.info()
+
+![42](https://github.com/hariprasath5106/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/111515488/f5bad7e0-46c5-4dc2-9926-9b21e2cee7dd)
+
+
+isnull() and sum()
+
+![43](https://github.com/hariprasath5106/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/111515488/09ff361e-8ea5-4863-820d-55905532b50b)
+
+
+data.head() for salary
+
+![44](https://github.com/hariprasath5106/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/111515488/7c49a096-ada0-42be-a306-90954f7e9549)
+
+
+MSE Value
+
+![45](https://github.com/hariprasath5106/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/111515488/37a9f831-3d46-4f02-bdee-dfd35bdc9cb2)
+
+r2 value 
+
+![46](https://github.com/hariprasath5106/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/111515488/c93c0522-fd84-49f8-80b1-66d4d124e51d)
+
+
+data prediction
+
+![47](https://github.com/hariprasath5106/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/111515488/c7fe8a00-4430-4873-99aa-244281a2ec1b)
+
+
+Result:
+Thus the program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee is written and verified using python programming.
