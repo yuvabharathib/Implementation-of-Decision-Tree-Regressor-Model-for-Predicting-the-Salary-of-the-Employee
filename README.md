@@ -5,14 +5,20 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 
 ## Equipments Required:
 1. Hardware – PCs
+  
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
 1. import dataset and get data info
+   
 2. check for null values
+   
 3. Map values for position column
+   
 4. Split the dataset into train and test set
-5. Import decision tree regressor and fit it for data 
+   
+5. Import decision tree regressor and fit it for data
+    
 6. Calculate MSE,R2 and y predict.
 
 ## Program:
